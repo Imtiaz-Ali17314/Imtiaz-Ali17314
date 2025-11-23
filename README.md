@@ -54,7 +54,7 @@
     <td valign="top" width="50%">
       <h3 align="center">⚡ Professional Skills ⚡</h3>
       <div align="left">
-        <img src="https://skillicons.dev/icons?i=figma,vue,laravel,react,electron,mysql,git,vite,postman" />
+        <img src="https://skillicons.dev/icons?i=nodejs,laravel,react,vue,mysql,postgresql,git,vite,postman,figma," />
       </div>
       <br/>
       <ul>
