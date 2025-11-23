@@ -41,7 +41,7 @@
 
 
 <br/>
-<h2 align="center">📋Most use Languages and Skills and Skills 📋</h2>
+<h2 align="center">📋Most use Languages and Skills 📋</h2>
 <br/>
 
 <table>
@@ -61,7 +61,6 @@
         <li>✅ Laravel</li>
         <li>✅ Vue.js</li>
         <li>✅ React</li>
-        <li>✅ Electron</li>
         <li>✅ MySQL</li>
         <li>✅ Playwright</li>
         <li>✅ figma</li>
