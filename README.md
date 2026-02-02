@@ -12,7 +12,7 @@
   
  🌱 I’m currently learning *React, playWright, Mern Stack*
 
-💬 Ask me about **vue.js, Laravel, MySql... or anything [here](https://github.com/w15147m/w15147m/issues)**
+💬 Ask me about **vue.js, Laravel, MySql... or anything [here](https://github.com/Imtiaz-Ali17314/Imtiaz-Ali17314/issues)**
 
 
  </div>
@@ -54,13 +54,13 @@
     <td valign="top" width="50%">
       <h3 align="center">⚡ Professional Skills ⚡</h3>
       <div align="left">
-        <img src="https://skillicons.dev/icons?i=nodejs,laravel,react,vue,mysql,postgresql,git,vite,postman,figma," />
+        <img src="https://skillicons.dev/icons?i=nodejs,laravel,react,vue,mysql,postgresql,git,playwright,figma," />
       </div>
       <br/>
       <ul>
         <li>✅ Node.js</li>
         <li>✅ Laravel</li>
-        <li>✅ React</li>
+        <li>✅ React.js</li>
         <li>✅ Vue.js</li>
         <li>✅ MySQL</li>
         <li>✅ PostgreSQL</li>
