@@ -39,7 +39,7 @@
 <br/>
 
 <div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
-  <img src="https://skillicons.dev/icons?i=nodejs,laravel,react,vue,php,mysql,postgresql,tailwind,bootstrap,git,github,figma,vscode" />
+  <img src="https://skillicons.dev/icons?i=nodejs,laravel,react,vue,electron,php,mysql,postgresql,tailwind,bootstrap,git,github,figma,vscode" />
   <img src="https://playwright.dev/img/playwright-logo.svg" width="48" />
 </div>
 
