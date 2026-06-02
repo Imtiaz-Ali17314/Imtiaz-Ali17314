@@ -1,0 +1,241 @@
+<svg viewBox="0 0 800 250" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-pink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Background Grid Pattern -->
+    <pattern id="grid-sys" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1f2d3d" stroke-width="0.8" opacity="0.2" />
+    </pattern>
+
+    <!-- Color Gradients -->
+    <linearGradient id="grad-cyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#0077b5" />
+    </linearGradient>
+    <linearGradient id="grad-pink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#7f00ff" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* CSS Keyframe Animations */
+    @keyframes rotate-needle-1 {
+      0%, 100% { transform: rotate(-60deg); }
+      50% { transform: rotate(80deg); }
+    }
+    @keyframes rotate-needle-2 {
+      0%, 100% { transform: rotate(-30deg); }
+      50% { transform: rotate(70deg); }
+    }
+    @keyframes rotate-needle-3 {
+      0%, 100% { transform: rotate(-90deg); }
+      50% { transform: rotate(90deg); }
+    }
+    @keyframes gauge-spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes sys-pulse {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    @keyframes load-bar {
+      0%, 100% { stroke-dashoffset: 140; }
+      50% { stroke-dashoffset: 20; }
+    }
+    @keyframes load-bar-fast {
+      0%, 100% { stroke-dashoffset: 140; }
+      50% { stroke-dashoffset: 40; }
+    }
+    @keyframes hash-scramble {
+      0% { content: "SHA256::7F00FF89E12"; }
+      20% { content: "SHA256::00F2FE43B8A"; }
+      40% { content: "SHA256::39FF14E7C9D"; }
+      60% { content: "SHA256::FF007F12A3F"; }
+      80% { content: "SHA256::9B00FF78D6C"; }
+      100% { content: "SHA256::7F00FF89E12"; }
+    }
+    @keyframes decrypt-blink {
+      0%, 100% { fill: #39ff14; }
+      50% { fill: #ff007f; }
+    }
+
+    /* Target Classes */
+    .bg-main { fill: #0b0f19; }
+    .bg-grid { fill: url(#grid-sys); }
+    .needle-1 {
+      animation: rotate-needle-1 6s ease-in-out infinite;
+      transform-origin: 100px 145px;
+    }
+    .needle-2 {
+      animation: rotate-needle-2 5s ease-in-out infinite;
+      transform-origin: 240px 145px;
+    }
+    .needle-3 {
+      animation: rotate-needle-3 7s ease-in-out infinite;
+      transform-origin: 380px 145px;
+    }
+    .gear-spin {
+      animation: gauge-spin 12s linear infinite;
+    }
+    .pulse-status {
+      animation: sys-pulse 2s infinite;
+    }
+    .bar-animate {
+      stroke-dasharray: 140;
+      animation: load-bar 4s ease-in-out infinite;
+    }
+    .bar-animate-fast {
+      stroke-dasharray: 140;
+      animation: load-bar-fast 3s ease-in-out infinite;
+    }
+    .hash-text::after {
+      content: "SHA256::7F00FF89E12";
+      animation: hash-scramble 4s steps(5, end) infinite;
+    }
+    .decrypt-indicator {
+      animation: decrypt-blink 2s infinite;
+    }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="100%" height="100%" class="bg-main" rx="10" />
+  <rect width="100%" height="100%" class="bg-grid" rx="10" />
+
+  <!-- Outer HUD Frame -->
+  <rect x="10" y="10" width="780" height="230" fill="none" stroke="#1f2d3d" stroke-width="1.5" rx="6" />
+  <rect x="15" y="15" width="770" height="220" fill="none" stroke="#00f2fe" stroke-width="1" opacity="0.15" rx="4" />
+
+  <!-- Accent Corners -->
+  <path d="M 10 30 L 10 10 L 30 10" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+  <path d="M 790 30 L 790 10 L 770 10" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+  <path d="M 10 220 L 10 240 L 30 240" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+  <path d="M 790 220 L 790 240 L 770 240" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+
+  <!-- ================= SECTION 1: DIALS (Left) ================= -->
+  
+  <!-- Dial 1: Automation Stability -->
+  <g>
+    <!-- Outer Arc -->
+    <path d="M 60 145 A 40 40 0 1 1 140 145" fill="none" stroke="#1f2d3d" stroke-width="4" stroke-linecap="round" />
+    <path d="M 60 145 A 40 40 0 1 1 130 115" fill="none" stroke="#39ff14" stroke-width="4" stroke-linecap="round" filter="url(#glow-green)" />
+    <!-- Needle -->
+    <line x1="100" y1="145" x2="100" y2="110" stroke="#ff007f" stroke-width="3" class="needle-1" />
+    <circle cx="100" cy="145" r="5" fill="#c9d1d9" />
+    <text x="100" y="180" fill="#c9d1d9" font-family="'Fira Code', monospace" font-size="10" text-anchor="middle">E2E_COVERAGE</text>
+    <text x="100" y="195" fill="#39ff14" font-family="'Fira Code', monospace" font-size="10" font-weight="bold" text-anchor="middle">100%</text>
+  </g>
+
+  <!-- Dial 2: Backend Speed -->
+  <g>
+    <!-- Outer Arc -->
+    <path d="M 200 145 A 40 40 0 1 1 280 145" fill="none" stroke="#1f2d3d" stroke-width="4" stroke-linecap="round" />
+    <path d="M 200 145 A 40 40 0 1 1 275 125" fill="none" stroke="#00f2fe" stroke-width="4" stroke-linecap="round" filter="url(#glow-cyan)" />
+    <!-- Needle -->
+    <line x1="240" y1="145" x2="240" y2="110" stroke="#7f00ff" stroke-width="3" class="needle-2" />
+    <circle cx="240" cy="145" r="5" fill="#c9d1d9" />
+    <text x="240" y="180" fill="#c9d1d9" font-family="'Fira Code', monospace" font-size="10" text-anchor="middle">API_STABILITY</text>
+    <text x="240" y="195" fill="#00f2fe" font-family="'Fira Code', monospace" font-size="10" font-weight="bold" text-anchor="middle">99.8%</text>
+  </g>
+
+  <!-- Dial 3: CPU Load -->
+  <g>
+    <!-- Outer Arc -->
+    <path d="M 340 145 A 40 40 0 1 1 420 145" fill="none" stroke="#1f2d3d" stroke-width="4" stroke-linecap="round" />
+    <path d="M 340 145 A 40 40 0 1 1 370 110" fill="none" stroke="#7f00ff" stroke-width="4" stroke-linecap="round" filter="url(#glow-purple)" />
+    <!-- Needle -->
+    <line x1="380" y1="145" x2="380" y2="110" stroke="#39ff14" stroke-width="3" class="needle-3" />
+    <circle cx="380" cy="145" r="5" fill="#c9d1d9" />
+    <text x="380" y="180" fill="#c9d1d9" font-family="'Fira Code', monospace" font-size="10" text-anchor="middle">COMPLEXITY_CAP</text>
+    <text x="380" y="195" fill="#7f00ff" font-family="'Fira Code', monospace" font-size="10" font-weight="bold" text-anchor="middle">v2.0_LOAD</text>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="455" y1="30" x2="455" y2="220" stroke="#1f2d3d" stroke-width="1.5" />
+
+  <!-- ================= SECTION 2: TELEMETRY BARS (Center-Right) ================= -->
+  <g transform="translate(480, 40)">
+    <!-- Subsystem 1: Node.js Engine -->
+    <g>
+      <text x="0" y="12" fill="#c9d1d9" font-family="'Fira Code', monospace" font-size="10">NODEJS_CORE_RUNTIME</text>
+      <!-- Base Line -->
+      <line x1="0" y1="22" x2="160" y2="22" stroke="#1f2d3d" stroke-width="6" stroke-linecap="round" />
+      <!-- Filling Line -->
+      <line x1="0" y1="22" x2="160" y2="22" stroke="url(#grad-cyan)" stroke-width="6" stroke-linecap="round" class="bar-animate" />
+    </g>
+
+    <!-- Subsystem 2: Laravel Core -->
+    <g transform="translate(0, 45)">
+      <text x="0" y="12" fill="#c9d1d9" font-family="'Fira Code', monospace" font-size="10">LARAVEL_FRAMEWORK_LOAD</text>
+      <!-- Base Line -->
+      <line x1="0" y1="22" x2="160" y2="22" stroke="#1f2d3d" stroke-width="6" stroke-linecap="round" />
+      <!-- Filling Line -->
+      <line x1="0" y1="22" x2="160" y2="22" stroke="url(#grad-pink)" stroke-width="6" stroke-linecap="round" class="bar-animate-fast" />
+    </g>
+
+    <!-- Subsystem 3: Playwright Automation Threads -->
+    <g transform="translate(0, 90)">
+      <text x="0" y="12" fill="#c9d1d9" font-family="'Fira Code', monospace" font-size="10">PLAYWRIGHT_WORKER_POOL</text>
+      <!-- Base Line -->
+      <line x1="0" y1="22" x2="160" y2="22" stroke="#1f2d3d" stroke-width="6" stroke-linecap="round" />
+      <!-- Filling Line -->
+      <line x1="0" y1="22" x2="160" y2="22" stroke="#39ff14" stroke-width="6" stroke-linecap="round" class="bar-animate" filter="url(#glow-green)" />
+    </g>
+  </g>
+
+  <!-- ================= SECTION 3: DECRYPTER PANEL (Far Right) ================= -->
+  <g transform="translate(660, 35)">
+    <!-- Border Frame -->
+    <rect width="110" height="180" fill="#090d16" stroke="#1f2d3d" stroke-width="1" rx="4" />
+    <rect width="110" height="20" fill="#111827" stroke="#1f2d3d" stroke-width="1" rx="2" />
+    <text x="10" y="14" fill="#ff007f" font-family="'Fira Code', monospace" font-size="9" font-weight="bold" letter-spacing="1">DECRYPT_SYS</text>
+    
+    <!-- Security Matrix Data -->
+    <g font-family="'Fira Code', monospace" font-size="9" fill="#c9d1d9" transform="translate(8, 40)">
+      <text x="0" y="10" fill="#8892b0">NODE_ID::0XF3A</text>
+      
+      <!-- Blinking Decrypter Signal -->
+      <g transform="translate(0, 25)">
+        <circle cx="5" cy="5" r="4" class="decrypt-indicator" />
+        <text x="18" y="8" fill="#39ff14" class="pulse-status">DECRYPTING</text>
+      </g>
+
+      <!-- Scrambling Hash Text -->
+      <text x="0" y="60" fill="#00f2fe" class="hash-text" font-size="8"></text>
+
+      <text x="0" y="85" fill="#8892b0">ENC::AES_256</text>
+      <text x="0" y="105" fill="#8892b0">TUNNEL::SECURE</text>
+
+      <!-- Glowing Success Indicator -->
+      <rect x="0" y="118" width="94" height="15" fill="#111827" stroke="#39ff14" stroke-width="1" rx="2" />
+      <text x="47" y="129" fill="#39ff14" font-weight="bold" font-size="8" text-anchor="middle" class="pulse-status">SYSTEM_SAFE</text>
+    </g>
+  </g>
+
+  <!-- System Log Label Header (Center-Left) -->
+  <text x="30" y="38" fill="#00f2fe" font-family="'Fira Code', monospace" font-size="12" font-weight="bold" letter-spacing="1">🛡️ METRIC::TELEMETRY_ENGINE</text>
+  <circle cx="20" cy="34" r="4" fill="#00f2fe" class="pulse-status" />
+
+</svg>

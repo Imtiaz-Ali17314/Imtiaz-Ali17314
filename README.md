@@ -19,6 +19,10 @@
   Bridging the gap between high-performance backends and absolute end-to-end software reliability.
 </p>
 
+<p align="center">
+  <img src="devos_dashboard.svg" alt="DevOS System Architecture Blueprint" width="100%" />
+</p>
+
 <div align="center">
   <img src="https://img.shields.io/badge/OS_VERSION-v2.0.26-00F2FE?style=flat-square&logo=linux&logoColor=00F2FE" alt="OS Version" />
   <img src="https://img.shields.io/badge/CORE_FOCUS-FULL_STACK_%26_AUTOMATION-7F00FF?style=flat-square&logo=cpu&logoColor=7F00FF" alt="Core Focus" />
@@ -97,31 +101,9 @@ system:
 
 ## 📊 System Metrics & Diagnostics
 
-<table align="center" style="border: 1px solid #1f2328; border-collapse: collapse; text-align: left; width: 100%;">
-  <tr style="background-color: #161b22;">
-    <th colspan="2" style="padding: 12px; border: 1px solid #1f2328; color: #00F2FE; font-size: 16px;">📊 DevOS Live Environment Diagnostics</th>
-  </tr>
-  <tr>
-    <td style="padding: 15px; border: 1px solid #1f2328; width: 50%; vertical-align: top;">
-      <strong>⚡ Core Profile Uplinks</strong><br/><br/>
-      <a href="https://github.com/Imtiaz-Ali17314">
-        <img src="https://img.shields.io/github/followers/Imtiaz-Ali17314?style=flat-square&logo=github&color=00F2FE&label=FOLLOWERS" alt="Followers" />
-      </a><br/>
-      <a href="https://github.com/Imtiaz-Ali17314">
-        <img src="https://img.shields.io/github/stars/Imtiaz-Ali17314?style=flat-square&logo=github&color=7F00FF&label=STARS_EARNED" alt="Stars" />
-      </a><br/>
-      <a href="https://github.com/Imtiaz-Ali17314">
-        <img src="https://img.shields.io/github/directory-file-count/Imtiaz-Ali17314/Imtiaz-Ali17314?style=flat-square&logo=github&color=39FF14&label=CORE_REPOS" alt="Repositories" />
-      </a>
-    </td>
-    <td style="padding: 15px; border: 1px solid #1f2328; width: 50%; vertical-align: top;">
-      <strong>🌌 Codebase Architecture (Weight)</strong><br/><br/>
-      <code>JavaScript/TS  [ ████████████████░░░░ ] 80%</code><br/>
-      <code>PHP & Laravel  [ ██████████████░░░░░░ ] 70%</code><br/>
-      <code>Testing (E2E)  [ ████████████████████ ] 100%</code>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="sys_monitor.svg" alt="DevOS System Telemetry Monitor" width="100%" />
+</p>
 
 <br/>
 
@@ -168,11 +150,11 @@ system:
 
 <div align="center">
   <a href="mailto:imtiazali17314@gmail.com">
-    <img src="https://img.shields.io/badge/SMTP_UPLINK-imtiazali17314@gmail.com-00F2FE?style=for-the-badge&logo=gmail&logoColor=black" alt="Gmail Badge" />
+    <img src="uplink_gmail.svg" alt="SMTP Gmail Uplink" width="48%" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/imtiaz-ali-79476a385/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/SECURE_LINK-LinkedIn-7F00FF?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+    <img src="uplink_linkedin.svg" alt="Secure LinkedIn Uplink" width="48%" />
   </a>
 </div>
 
