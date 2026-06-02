@@ -1,22 +1,22 @@
 <!--
 ========================================================================
 🤖 SYSTEM: DEV_OS INITIALIZED
-👤 ENGINEER: IMTIAZ ALI (FULL-STACK DEVELOPER & AUTOMATION ARCHITECT)
+👤 ENGINEER: IMTIAZ ALI (FULL-STACK DEVELOPER & QA AUTOMATION ENGINEER)
 🇵🇰 ORIGIN: PAKISTAN
 💬 "Curiously inspecting the source? You are a true engineer! Let's connect!"
 ========================================================================
 -->
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=32&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=650&height=75&lines=🚀+INITIATING+DEV_OS...;⚡+SYSTEMS+STATUS:+ACTIVE;👤+WELCOME+TO+IMTIAZ_ALI.SYS;💻+FULL-STACK+ENGINEER;🛡️+PLAYWRIGHT+AUTOMATION+EXPERT" alt="DevOS Console Header" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=32&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=650&height=75&lines=🚀+INITIATING+DEV_OS...;⚡+SYSTEMS+STATUS:+ACTIVE;👤+WELCOME+TO+IMTIAZ_ALI.SYS;💻+FULL-STACK+DEVELOPER;🛡️+QA+AUTOMATION+ENGINEER" alt="DevOS Console Header" />
 </h1>
 
 <h3 align="center">
-  Full-Stack Software Engineer & Automation Architect from Pakistan 🇵🇰
+  Full-Stack Developer & QA Automation Engineer from Pakistan 🇵🇰
 </h3>
 
 <p align="center">
-  Bridging the gap between high-performance backends and absolute end-to-end software reliability.
+  A rapid-learning engineer focused on clean, conceptual backend design and robust end-to-end automation pipelines.
 </p>
 
 <p align="center">
@@ -39,12 +39,17 @@
 ```yaml
 system:
   host: Imtiaz Ali
-  role: Full-Stack Engineer & Quality Assurance Lead
-  active_node: Softleed (SaaS Architectures)
+  roles:
+    - Full-Stack Developer
+    - QA Automation Engineer
+  active_node: Softleed
   location: Pakistan (GMT+5)
-  core_runtime: [Node.js, Laravel, React.js, Vue.js, Playwright]
-  architecture: Scalable API Architectures, E2E Test Pipelines, Cross-Platform Desktop
-  philosophy: "Write self-documenting code, automate aggressive coverage, build for scale."
+  runtime_stack: [Node.js, Laravel, React.js, Vue.js, Playwright]
+  capabilities: [Full-Stack Development, E2E Test Pipelines, Desktop Integration]
+  diagnostics:
+    learning_curve: "Steep / Ultra-Rapid"
+    adaptability: "Seamless stack transitions & deep conceptual grasp"
+    delivery_standard: "High-quality, reliable, clean-code architecture"
 ```
 
 <br/>
@@ -90,9 +95,9 @@ system:
 <br/>
 
 <div align="center">
-  <code>Backend Architectures [ ██████████████████░░ ] 90%</code> &nbsp;&nbsp;|&nbsp;&nbsp;
-  <code>Frontend Interfaces   [ ████████████████░░░░ ] 80%</code> &nbsp;&nbsp;|&nbsp;&nbsp;
-  <code>Automation Testing    [ ████████████████████ ] 100%</code>
+  <code>Backend Dev (Node/Laravel) [ ██████████████░░░░░ ] 70%</code> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <code>Frontend Dev (React/Vue)    [ ████████████░░░░░░░ ] 60%</code> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <code>QA Automation (Playwright)  [ ███████████████░░░░ ] 75%</code>
 </div>
 
 <br/>
@@ -117,27 +122,27 @@ system:
 
 <table align="center" style="border: 1px solid #1f2328; border-collapse: collapse; text-align: center; width: 100%;">
   <tr style="background-color: #161b22;">
-    <th style="padding: 12px; border: 1px solid #1f2328; color: #00F2FE; width: 25%; font-size: 15px;">🛡️ Quality Assurance</th>
-    <th style="padding: 12px; border: 1px solid #1f2328; color: #7F00FF; width: 25%; font-size: 15px;">💻 Backend Engineering</th>
-    <th style="padding: 12px; border: 1px solid #1f2328; color: #39FF14; width: 25%; font-size: 15px;">🎨 Frontend Integration</th>
-    <th style="padding: 12px; border: 1px solid #1f2328; color: #FF007F; width: 25%; font-size: 15px;">🚀 Architecture</th>
+    <th style="padding: 12px; border: 1px solid #1f2328; color: #00F2FE; width: 25%; font-size: 15px;">🛡️ QA Automation</th>
+    <th style="padding: 12px; border: 1px solid #1f2328; color: #7F00FF; width: 25%; font-size: 15px;">💻 Backend Dev</th>
+    <th style="padding: 12px; border: 1px solid #1f2328; color: #39FF14; width: 25%; font-size: 15px;">🎨 Frontend Dev</th>
+    <th style="padding: 12px; border: 1px solid #1f2328; color: #FF007F; width: 25%; font-size: 15px;">⚡ Learning Velocity</th>
   </tr>
   <tr>
     <td style="padding: 20px; border: 1px solid #1f2328; vertical-align: top;">
-      🏆<br/><strong>E2E Master</strong><br/>
-      <small>Playwright Automation Specialist</small>
+      🏆<br/><strong>E2E Developer</strong><br/>
+      <small>Playwright Automation & Integration</small>
     </td>
     <td style="padding: 20px; border: 1px solid #1f2328; vertical-align: top;">
-      🏆<br/><strong>API Architect</strong><br/>
-      <small>Node.js & Laravel Core Runtimes</small>
+      🏆<br/><strong>API Developer</strong><br/>
+      <small>Node.js & Laravel Web Services</small>
     </td>
     <td style="padding: 20px; border: 1px solid #1f2328; vertical-align: top;">
-      🏆<br/><strong>UI Engineer</strong><br/>
-      <small>React, Vue & Desktop Interfaces</small>
+      🏆<br/><strong>UI Developer</strong><br/>
+      <small>React, Vue & Desktop Clients</small>
     </td>
     <td style="padding: 20px; border: 1px solid #1f2328; vertical-align: top;">
-      🏆<br/><strong>SaaS Builder</strong><br/>
-      <small>High-Scale Production Deployments</small>
+      🏆<br/><strong>Rapid Adapter</strong><br/>
+      <small>Deep Conceptual Grasp & Swift Execution</small>
     </td>
   </tr>
 </table>
