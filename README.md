@@ -95,42 +95,66 @@ system:
 
 ---
 
-## 📊 Live System Metrics
+## 📊 System Metrics & Diagnostics
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%" align="center">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Imtiaz-Ali17314&show_icons=true&theme=react&border_radius=10&bg_color=0d1117&text_color=c9d1d9&title_color=00F2FE&icon_color=00F2FE&hide_border=true" alt="GitHub Stats" />
-      </td>
-      <td width="50%" align="center">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Imtiaz-Ali17314&layout=compact&theme=react&border_radius=10&bg_color=0d1117&text_color=c9d1d9&title_color=7F00FF&icon_color=7F00FF&hide_border=true&langs_count=8" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Imtiaz-Ali17314&theme=black-ice&background=0d1117&border=1f2328&ring=00F2FE&fire=00F2FE&currStreakLabel=00F2FE&hide_border=true" alt="Contribution Streak" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Imtiaz-Ali17314&theme=react-dark&bg_color=0d1117&color=00F2FE&line=00F2FE&point=7F00FF&area=true&hide_border=true" alt="Activity Graph" />
-</div>
+<table align="center" style="border: 1px solid #1f2328; border-collapse: collapse; text-align: left; width: 100%;">
+  <tr style="background-color: #161b22;">
+    <th colspan="2" style="padding: 12px; border: 1px solid #1f2328; color: #00F2FE; font-size: 16px;">📊 DevOS Live Environment Diagnostics</th>
+  </tr>
+  <tr>
+    <td style="padding: 15px; border: 1px solid #1f2328; width: 50%; vertical-align: top;">
+      <strong>⚡ Core Profile Uplinks</strong><br/><br/>
+      <a href="https://github.com/Imtiaz-Ali17314">
+        <img src="https://img.shields.io/github/followers/Imtiaz-Ali17314?style=flat-square&logo=github&color=00F2FE&label=FOLLOWERS" alt="Followers" />
+      </a><br/>
+      <a href="https://github.com/Imtiaz-Ali17314">
+        <img src="https://img.shields.io/github/stars/Imtiaz-Ali17314?style=flat-square&logo=github&color=7F00FF&label=STARS_EARNED" alt="Stars" />
+      </a><br/>
+      <a href="https://github.com/Imtiaz-Ali17314">
+        <img src="https://img.shields.io/github/directory-file-count/Imtiaz-Ali17314/Imtiaz-Ali17314?style=flat-square&logo=github&color=39FF14&label=CORE_REPOS" alt="Repositories" />
+      </a>
+    </td>
+    <td style="padding: 15px; border: 1px solid #1f2328; width: 50%; vertical-align: top;">
+      <strong>🌌 Codebase Architecture (Weight)</strong><br/><br/>
+      <code>JavaScript/TS  [ ████████████████░░░░ ] 80%</code><br/>
+      <code>PHP & Laravel  [ ██████████████░░░░░░ ] 70%</code><br/>
+      <code>Testing (E2E)  [ ████████████████████ ] 100%</code>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
 ---
 
-## 🏆 System Achievements
+## 🏆 System Achievements & Core Milestones
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Imtiaz-Ali17314&theme=onedark&no-bg=true&no-border=true&column=7" alt="GitHub Trophies" />
-</div>
+<table align="center" style="border: 1px solid #1f2328; border-collapse: collapse; text-align: center; width: 100%;">
+  <tr style="background-color: #161b22;">
+    <th style="padding: 12px; border: 1px solid #1f2328; color: #00F2FE; width: 25%; font-size: 15px;">🛡️ Quality Assurance</th>
+    <th style="padding: 12px; border: 1px solid #1f2328; color: #7F00FF; width: 25%; font-size: 15px;">💻 Backend Engineering</th>
+    <th style="padding: 12px; border: 1px solid #1f2328; color: #39FF14; width: 25%; font-size: 15px;">🎨 Frontend Integration</th>
+    <th style="padding: 12px; border: 1px solid #1f2328; color: #FF007F; width: 25%; font-size: 15px;">🚀 Architecture</th>
+  </tr>
+  <tr>
+    <td style="padding: 20px; border: 1px solid #1f2328; vertical-align: top;">
+      🏆<br/><strong>E2E Master</strong><br/>
+      <small>Playwright Automation Specialist</small>
+    </td>
+    <td style="padding: 20px; border: 1px solid #1f2328; vertical-align: top;">
+      🏆<br/><strong>API Architect</strong><br/>
+      <small>Node.js & Laravel Core Runtimes</small>
+    </td>
+    <td style="padding: 20px; border: 1px solid #1f2328; vertical-align: top;">
+      🏆<br/><strong>UI Engineer</strong><br/>
+      <small>React, Vue & Desktop Interfaces</small>
+    </td>
+    <td style="padding: 20px; border: 1px solid #1f2328; vertical-align: top;">
+      🏆<br/><strong>SaaS Builder</strong><br/>
+      <small>High-Scale Production Deployments</small>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
