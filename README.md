@@ -105,6 +105,10 @@ system:
   <img src="sys_monitor.svg" alt="DevOS System Telemetry Monitor" width="100%" />
 </p>
 
+<p align="center">
+  <img src="github_stats.svg" alt="GitHub Live Telemetry Stats" width="100%" />
+</p>
+
 <br/>
 
 ---
