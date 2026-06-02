@@ -78,10 +78,10 @@ def generate_svg(stats):
         # Fallback stats in case of rate-limiting or errors
         stats = {
             "name": USERNAME,
-            "followers": 18,
-            "public_repos": 20,
-            "stars": 15,
-            "forks": 6,
+            "followers": 1,
+            "public_repos": 56,
+            "stars": 1,
+            "forks": 0,
             "languages": {"JavaScript": 650000, "PHP": 420000, "Vue": 250000, "HTML": 90000}
         }
 
