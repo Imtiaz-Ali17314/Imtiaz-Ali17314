@@ -11,18 +11,18 @@
   <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=32&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=650&height=75&lines=🚀+INITIATING+DEV_OS...;⚡+SYSTEMS+STATUS:+ACTIVE;👤+WELCOME+TO+IMTIAZ_ALI.SYS;💻+FULL-STACK+DEVELOPER;🛡️+QA+AUTOMATION+ENGINEER" alt="DevOS Console Header" />
 </h1>
 
-<p align="center">
-  <a href="https://www.imtiazali.dev" target="_blank" rel="noopener noreferrer">
-    <img src="portfolio_button.svg" alt="Visit Portfolio" />
-  </a>
-</p>
-
 <h3 align="center">
   Full-Stack Developer & QA Automation Engineer from Pakistan 🇵🇰
 </h3>
 
 <p align="center">
   A rapid-learning engineer focused on clean, conceptual backend design and robust end-to-end automation pipelines.
+</p>
+
+<p align="center">
+  <a href="https://www.imtiazali.dev" target="_blank" rel="noopener noreferrer">
+    <img src="portfolio_button.svg" alt="Visit Portfolio Website" />
+  </a>
 </p>
 
 <p align="center">
