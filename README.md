@@ -11,6 +11,12 @@
   <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=32&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=650&height=75&lines=🚀+INITIATING+DEV_OS...;⚡+SYSTEMS+STATUS:+ACTIVE;👤+WELCOME+TO+IMTIAZ_ALI.SYS;💻+FULL-STACK+DEVELOPER;🛡️+QA+AUTOMATION+ENGINEER" alt="DevOS Console Header" />
 </h1>
 
+<p align="center">
+  <a href="https://www.imtiazali.dev" target="_blank" rel="noopener noreferrer">
+    <img src="portfolio_cta.svg" alt="Enter Imtiaz Ali Portfolio Console" width="100%" />
+  </a>
+</p>
+
 <h3 align="center">
   Full-Stack Developer & QA Automation Engineer from Pakistan 🇵🇰
 </h3>
@@ -27,7 +33,6 @@
   <img src="https://img.shields.io/badge/OS_VERSION-v2.0.26-00F2FE?style=flat-square&logo=linux&logoColor=00F2FE" alt="OS Version" />
   <img src="https://img.shields.io/badge/CORE_FOCUS-FULL_STACK_%26_AUTOMATION-7F00FF?style=flat-square&logo=cpu&logoColor=7F00FF" alt="Core Focus" />
   <img src="https://img.shields.io/badge/SYSTEM_STATUS-OPERATIONAL-39FF14?style=flat-square&logo=statuspage&logoColor=39FF14" alt="System Status" />
-  <img src="https://img.shields.io/badge/CURRENT_NODE-SOFTLEED-FF007F?style=flat-square&logo=gitbook&logoColor=FF007F" alt="Current Node" />
 </div>
 
 <br/>
@@ -103,6 +108,12 @@ system:
 <br/>
 
 ---
+
+## 📊 System Metrics & Diagnostics
+
+<p align="center">
+  <img src="sys_monitor.svg" alt="DevOS System Telemetry Monitor" width="100%" />
+</p>
 
 ## <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmN2dThuNWs1N2syYmQycW04Zng5cndnaHc5OW95ZXczM3A4OHJ1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Github Stats
 
