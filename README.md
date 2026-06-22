@@ -104,12 +104,6 @@ system:
 
 ---
 
-## 📊 System Metrics & Diagnostics
-
-<p align="center">
-  <img src="sys_monitor.svg" alt="DevOS System Telemetry Monitor" width="100%" />
-</p>
-
 ## <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmN2dThuNWs1N2syYmQycW04Zng5cndnaHc5OW95ZXczM3A4OHJ1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Github Stats
 
 <div align="center">
