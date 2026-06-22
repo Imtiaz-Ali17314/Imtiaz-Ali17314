@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://www.imtiazali.dev" target="_blank" rel="noopener noreferrer">
-    <img src="portfolio_cta.svg" alt="Enter Imtiaz Ali Portfolio Console" width="100%" />
+    <img src="portfolio_button.svg" alt="Visit Portfolio" />
   </a>
 </p>
 
@@ -33,6 +33,7 @@
   <img src="https://img.shields.io/badge/OS_VERSION-v2.0.26-00F2FE?style=flat-square&logo=linux&logoColor=00F2FE" alt="OS Version" />
   <img src="https://img.shields.io/badge/CORE_FOCUS-FULL_STACK_%26_AUTOMATION-7F00FF?style=flat-square&logo=cpu&logoColor=7F00FF" alt="Core Focus" />
   <img src="https://img.shields.io/badge/SYSTEM_STATUS-OPERATIONAL-39FF14?style=flat-square&logo=statuspage&logoColor=39FF14" alt="System Status" />
+  <img src="https://img.shields.io/badge/CURRENT_NODE-SOFTLEED-FF007F?style=flat-square&logo=gitbook&logoColor=FF007F" alt="Current Node" />
 </div>
 
 <br/>
