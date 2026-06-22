@@ -110,9 +110,19 @@ system:
   <img src="sys_monitor.svg" alt="DevOS System Telemetry Monitor" width="100%" />
 </p>
 
-<p align="center">
-  <img src="github_stats.svg" alt="GitHub Live Telemetry Stats" width="100%" />
-</p>
+## <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmN2dThuNWs1N2syYmQycW04Zng5cndnaHc5OW95ZXczM3A4OHJ1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Github Stats
+
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Imtiaz-Ali17314&show_icons=true&count_private=true&hide_border=true&title_color=00f2fe&icon_color=39ff14&text_color=c9d1d9&bg_color=0b0f19" alt="Imtiaz Ali github stats" /> 
+  
+  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=Imtiaz-Ali17314&hide_border=true&background=0b0f19&stroke=0b0f19&ring=00f2fe&fire=ff007f&currStreakLabel=00f2fe&currStreakNum=39ff14&sideLabels=8892b0&sideNums=c9d1d9&dates=8892b0" />
+</div>
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Imtiaz-Ali17314&show_icons=true&locale=en&layout=compact&hide_border=true&bg_color=0b0f19&title_color=00f2fe&text_color=c9d1d9&icon_color=39ff14" alt="Imtiaz Ali top languages" />
+  
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=Imtiaz-Ali17314&theme=react-dark&hide_border=true&area=true&bg_color=0b0f19&color=c9d1d9&line=00f2fe&point=39ff14" />
+</div>
 
 <br/>
 
